@@ -9,6 +9,8 @@ import CheckBox from './components/6/CheckBox.jsx';
 import ControlledInput from './components/7/ControlledInput.jsx';
 import LoginForm from './components/9/LoginForm.jsx';
 import ItemList from './components/10/ItemList.jsx';
+import ToDoApp from './components/11/ToDoApp.jsx';
+
 
 function App() {
   return (
@@ -23,6 +25,8 @@ function App() {
       <ControlledInput />
       <LoginForm/>
       <ItemList/>
+      <ToDoApp/>
+      
     </div>
     </>
   );
